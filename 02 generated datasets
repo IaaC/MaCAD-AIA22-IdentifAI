@@ -1,0 +1,17 @@
+In the following gdrive link you can find the following generated datasets used for clustering and predicting the UHVI index:
+
+https://drive.google.com/drive/folders/1fdxmeYUECHT7Cboz-EQ0P44USj-EJQuf?usp=sharing
+
+FINAL_DATASET.csv
+  For every street segment of Vienna extracted from osmnx, various features where attached through the Dataset preparation notebook, which can be found in the 01 notebooks folder.
+  The attached features are : number of trees, park influence, waterbody influence, number of fountains, pavement material, street type, amenities, benches, UHVI index, global radiation values. 
+FINAL_DATASET_ENCODED.csv
+  The encoded version of FINAL_DATASET.csv ( encoding features such as material and street type) ready to use for the Clustering streets notebook.
+  
+geo.geojson
+  the geojson file from the FINAL_DATASET which was used in the web interface.
+  
+Final_som_ml_3600.csv
+  Dataset of 3600 interpolated values of streets, generated through the gh script Kohonen_map_csv.gh (which can be found in 03 grasshopper scripts) used for predicting the UHVI index in the augmented_streets_ml notebook.
+Final_som_ml_40k.csv
+  Dataset of 40000 interpolated values of streets, generated through the gh script Kohonen_map_csv.gh (which can be found in 03 grasshopper scripts) used for predicting the UHVI index in the augmented_streets_ml notebook.
