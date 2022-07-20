@@ -66,8 +66,12 @@ In our opinion the results of our models are promising and can be further improv
 How to use this repository:
 
 01 notebooks - has the main notebooks for generating the dataset and training the machine learning models ( clustering street types and predicting the UHVI index).
+
 02 generated datasets - has the gdrive link to the generated dataset.
+
 03 grasshopper scripts - has the needed gh script for creating the interpolated values from the main dataset for training the linear regression model for predicting the UHVI index. 
  
+
+
 
 IdentifAI is a project of IAAC, Institute for Advanced Architecture of Catalonia developed in the Master in Advanced Computation for Architecture & Design 2021/22 by students: Erida Bendo, Maria Papadimitraki, Clemens Russ, Mohammad Daniyal Tariq,  faculty: Angelos Chronis and faculty assistants: Serjoscha Düring, Nariddh Khean, Aleksandra Jastrzębska.
