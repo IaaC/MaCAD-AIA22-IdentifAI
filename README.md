@@ -63,7 +63,7 @@ In our opinion the results of our models are promising and can be further improv
  
 
 
-How to use the files:
+How to use this repository:
 
 01 notebooks - has the main notebooks for generating the dataset and training the machine learning models ( clustering street types and predicting the UHVI index).
 02 generated datasets - has the gdrive link to the generated dataset.
